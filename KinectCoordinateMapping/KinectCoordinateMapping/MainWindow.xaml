@@ -8,7 +8,7 @@
         <Canvas Name="canvas" Width="640" Height="480" >
             <Image Height="270" Canvas.Left="229" Source="head.png" Name="imgHead" Stretch="Fill" Canvas.Top="186" Width="213"/>
             <Image Height="141" Canvas.Left="41" Source="leftHand.png" Name="imgRightHand" Stretch="Fill" Canvas.Top="103" Width="183"/>
-            <Image Height="141" Canvas.Left="442" Source="rightHand.png" Name="imgLefttHand" Stretch="Fill" Canvas.Top="103" Width="183"/>
+            <Image Height="141" Canvas.Left="442" Source="rightHand.png" Name="imgLeftHand" Stretch="Fill" Canvas.Top="103" Width="183"/>
         </Canvas>
     </Grid>
 </Window>

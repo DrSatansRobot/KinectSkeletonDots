@@ -134,6 +134,22 @@ namespace KinectCoordinateMapping
                                     Canvas.SetTop(imgHead, point.Y - imgHead.Height / 2);
                                     canvas.Children.Add(imgHead);
                                 }
+
+                                //Joint rhandJoint = body.Joints[JointType.HandRight];
+                                //if (joint == rhandJoint)
+                                //{
+                                //    Canvas.SetLeft(imgLeftHand, point.X - imgLeftHand.Width / 2);
+                                //    Canvas.SetTop(imgLeftHand, point.Y - imgLeftHand.Height / 2);
+                                //    canvas.Children.Add(imgLeftHand);
+                                //}
+
+                                //Joint lhandJoint = body.Joints[JointType.HandLeft];
+                                //if (joint == lhandJoint)
+                                //{
+                                //    Canvas.SetLeft(imgRightHand, point.X - imgRightHand.Width / 2);
+                                //    Canvas.SetTop(imgRightHand, point.Y - imgRightHand.Height / 2);
+                                //    canvas.Children.Add(imgRightHand);
+                                //}
                             }
                         }
                     }
